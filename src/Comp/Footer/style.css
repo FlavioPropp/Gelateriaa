@@ -1,0 +1,28 @@
+footer{
+    color: white;
+    width: 0px auto;
+    background-color: black;
+}
+.secao-footer{
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.secao-footer img{
+    width: 100px;
+}
+
+.credito{
+    text-align: center;
+}
+
+.texto {
+    margin-left: 70px;
+    width: calc(50% / 4);
+}
+a{
+    text-decoration: none;
+    color: white;
+}

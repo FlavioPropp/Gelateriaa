@@ -1,0 +1,34 @@
+
+header{
+    display: flex;
+    width: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    z-index: 1;
+    background-color: rgb(249, 219, 121);
+}
+
+.box-topo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: auto;
+    height: 60px;
+}
+
+.navibar{
+    width: 300px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}

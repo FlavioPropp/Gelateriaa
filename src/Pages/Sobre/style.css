@@ -1,0 +1,69 @@
+.secao-banner-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('/assets/banner-sobre.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+.box-titulo-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+ h1 {
+    color: white;
+    font-size: 90px;
+    text-shadow: 2px 5px 2px #474747;
+}
+
+.section-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 90px;
+    width: 100%;
+}
+
+.titulo-sobre {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 60px;
+    width: 100%;
+}
+
+.titulo-sobre h2{
+    font-size: 40px;
+}
+.titulo-sobre h3{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.paragrafo-sobre {
+    text-align: center;
+    line-height: 27px;
+    width: 100%;
+}
+.paragrafo-sobre p{
+    margin-bottom: 20px;
+}
+
+.secao-image-sobre  div{
+    display: flex;
+    width: 100%;
+}
+.secao-image-sobre img{
+    width: 50%;
+    height: auto;
+    object-fit: cover; 
+}
